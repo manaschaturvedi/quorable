@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div#logo
+{
+ position: absolute;
+ margin-top:5%;
+ margin-left:25%;
+}
+
+div#cart
+{
+ position: relative;
+ margin-left:87%;
+ margin-top:-300px;
+ 
+}
+
+#srch
+{
+    width: 400px;
+   margin-top: 31%;
+   margin-left: 33%;
+}
+
+#err
+{
+    color: red;
+    margin-left: 33%;
+}
+</style>
+
+</head>
+
+<body>
+<div id = logo><img src="/images/logo.png" height = 60% width = 60%></div>
+<form method = "post">
+    <label><input type = "text" name = "search" id = "srch"></label>
+    <label><input type = "submit" value = "SEARCH"></label>
+    <div id = "err">{{err}}</div>
+</form>
+<div id = cart><img src="/images/cart.jpg" height = 75 px ></div>
+</body>
+</html>

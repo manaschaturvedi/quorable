@@ -1,0 +1,11 @@
+<h1>Quora Live Feed</h1><br><br><br>
+
+{% extends "rssbase.html" %}
+
+{% block content %}
+    {% for e in range(1, 19) %}
+        {{ (list[e]) }} <br>
+        <a href="{{ linklist[e] }}">{{ linklist[e] }}</a>
+        <br><br>
+    {% endfor %}
+{% endblock %}
