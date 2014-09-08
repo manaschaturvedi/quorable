@@ -1,2 +1,5 @@
 Quorable is a search engine for Quora, which is a question and answer site. 
 I wrote a basic crawler which works on Quora's RSS feed based on the input entered by the user. 
+
+As of August 2014, this application no longer works. This is due to the recent changes that Quora
+introduced in their RSS feed URL system. 
