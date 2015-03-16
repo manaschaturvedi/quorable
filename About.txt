@@ -3,3 +3,5 @@ I wrote a basic crawler which works on Quora's RSS feed based on the input enter
 
 As of August 2014, this application no longer works. This is due to the recent changes that Quora
 introduced in their RSS feed URL system. 
+
+Edit (Version 2.0): The project works just as it is intended to work.
